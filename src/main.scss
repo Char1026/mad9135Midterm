@@ -1,0 +1,133 @@
+$col-1-width: 30%;
+$col-2-width: 100% - $col-1-width;
+
+body {
+  height: 100%;
+}
+
+.title {
+  width: 100%;
+  font-size: 3em;
+  font-weight: bold;
+  border: solid black 1px;
+}
+
+.column {
+  float:left;
+  padding: 10px;
+
+  &.list {
+    width: $col-1-width;
+    height: 100%;
+    overflow: scroll;
+  }
+
+  &.details {
+    width: $col-2-width;
+  }
+}
+
+.contact {
+  .row {
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+
+.listContainer{
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    margin-right: 30px;
+   
+    
+    
+}
+
+.contactItems{
+    overflow: hidden;
+}
+.dImg{
+    
+    margin: auto;
+    text-align: center;
+}
+
+.dName{
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.dGender{
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.dDob{
+    margin: auto;
+    text-align: center;
+}
+
+.dEmail{
+    margin: auto;
+    text-align: center;
+}
+
+.dPhone{
+    margin: auto;
+    text-align: center;
+}
+
+.dStreet{
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+.dState{
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+.dPost{
+    margin: auto;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+}
+
+.ull{
+    list-style: none;
+    overflow: hidden;
+    float: left;
+}
+
+.contactDetails{
+    min-width: 300px;
+    margin-top: 100px;
+}
+.clickone{
+    font-size: 30px;
+    font-family: cursive;
+    float: left;
+    
+}
+
+.tFirst{
+    text-transform: capitalize;
+}
+.tLast{
+    text-transform: capitalize;
+}
